@@ -1,8 +1,9 @@
 import React from 'react';
 
 export default function Logo() {
-  return (
-    <section id="logo-section" className="py-20 bg-luxury-black">
+  return (<>  
+  <hr />
+    <section id="logo-section" className="py-20 bg-#000000">
       <div className="w-full max-w-md mx-auto p-4 text-center">
         <div className="relative mb-8">
           <div className="absolute -inset-4 bg-gradient-to-r from-luxury-gold/10 to-transparent rounded-full blur-3xl"></div>
@@ -19,5 +20,7 @@ export default function Logo() {
         </p>
       </div>
     </section>
+    </>
+
   );
 }
