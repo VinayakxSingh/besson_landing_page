@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { LiaLinkedin } from "react-icons/lia";
-import { BiLogoLinkedinSquare } from "react-icons/bi";
+import { TiSocialFacebookCircular } from "react-icons/ti";
+import { AiOutlineYoutube } from "react-icons/ai";
 export default function SocialLinks() {
   const socialLinks = [
     { icon: FaInstagram, label: 'Instagram', url: "https://www.instagram.com/thebessongroup" },
-    { icon: FaFacebook, label: 'Facebook', url: "https://www.facebook.com/p/The-Besson-Group-I-Real-Estate-61570294342433" },
-    { icon: BiLogoLinkedinSquare, label: 'LinkedIn', url: "https://www.linkedin.com/in/naomi-b-a19273245/" }
+    { icon: TiSocialFacebookCircular, label: 'Facebook', url: "https://www.facebook.com/p/The-Besson-Group-I-Real-Estate-61570294342433" },
+    { icon: AiOutlineYoutube, label: 'Youtube', url: "https://www.youtube.com/@thebessongroup" }
   ];
 
   return (
