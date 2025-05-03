@@ -8,7 +8,7 @@ export default function Logo() {
         <div className="relative mb-8">
           <div className="absolute -inset-4 bg-gradient-to-r from-luxury-gold/10 to-transparent rounded-full blur-3xl"></div>
           <img 
-            src="/circlelogo.png" 
+            src="/logo-navbar.png" 
             alt="The Besson Group" 
             className="w-32 h-32 rounded-full mx-auto shadow-2xl"
           />
