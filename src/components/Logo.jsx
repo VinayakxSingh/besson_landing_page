@@ -1,8 +1,8 @@
 import React from 'react';
 
 export default function Logo() {
-  return (<>  
-  <hr />
+  return (
+
     <section id="logo-section" className="py-20 bg-#000000">
       <div className="w-full max-w-md mx-auto p-4 text-center">
         <div className="relative mb-8">
@@ -20,7 +20,7 @@ export default function Logo() {
         </p>
       </div>
     </section>
-    </>
+    
 
   );
 }
